@@ -1,0 +1,876 @@
+---
+- !ruby/object:Course
+  title: 'Software I: Software Components'
+  subCat: CSE2221
+  description: |-
+    Intellectual foundations of software engineering; design-by-contract principles; mathematical modeling of software functionality; component-based software from client perspective; layered data representation.
+    Prereq: 1212, 1221, 1222, 1223, 1224, Engr 1221, 1281.01H, 1281.02H, or CSE Placement Level A. Prereq or concur: Math 1151, 1161.01, or 1161.02. Not open to students with credit for 5022. This course is available for EM credit.
+  teachers:
+  - Adam Russell Grupa
+  - Timothy Carpenter
+  maxCH: 4
+  minCH: 4
+- !ruby/object:Course
+  title: 'Software II: Software Development and Design'
+  subCat: CSE2231
+  description: |-
+    Data representation using hashing, search trees, and linked data structures; algorithms for sorting; using trees for language processing; component interface design; best practices in Java.
+    Prereq: 2221. Concur: 2321. Not open to students with credit for 2231.01.
+  teachers:
+  - Paolo Bucci
+  - Rob LaTour
+  maxCH: 4
+  minCH: 4
+- !ruby/object:Course
+  title: Introduction to Database Systems
+  subCat: CSE3241
+  description: |-
+    Database systems use, logical design, entity-relationship model, normalization, query languages and SQL, relational algebra and calculus, object relational databases, XML, active databases; database design project.
+    Prereq: 2133 or 2231; and 2321 or Math 2366; and enrollment in CSE, CIS, ISE, Data Analytics, ECE, Engr Physics, or Business Info Sys major, or CIS minor. Not open to students with credit for 5241.
+  teachers:
+  - Zina Pichkar
+  - Leon Jairo Madrid
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Computer Networking and Internet Technologies
+  subCat: CSE3461
+  description: |-
+    Computer networks, communication protocols, Internet TCP/IP and applications, wireless communications and network security.
+    Prereq: 2421; or 3430; or 2451 and ECE 2560; and enrollment in CIS, CSE, ECE, Engr Physics, or Data Analytics major. Prereq or concur: 2431 or 3430. Not open to students with credit for 5461.
+  teachers:
+  - Jim Vickroy
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: 'Project: Design, Development, and Documentation of Web Applications'
+  subCat: CSE3901
+  description: |-
+    Intensive group project involving design, development, and documentation of a web application; client-side and server-side scripting; communication skills emphasized; builds programming maturity.
+    Prereq: 2231; and 2321; and 2421 or 3430, or 2451 and ECE 2560; and enrollment in CSE, CIS, ECE, or Data Analytics major.
+  teachers:
+  - Naeem Omar Shareef
+  maxCH: 4
+  minCH: 4
+- !ruby/object:Course
+  title: Introduction to Database Systems
+  subCat: CSE5241
+  description: "Database systems use; logical design; entity-relationship model; normalization;
+    query languages and SQL; relational algebra and calculus; object relational databases;
+    XML; active databases; database design project.\r\nPrereq: 2133 or 2231 or 2233
+    (314) or 321, and 2321 or Math 2366 (366). Not open to students with credit for
+    3241 (670)."
+  teachers:
+  - Zina Pichkar
+  - Leon Jairo Madrid
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: 'Foundations II: Data Structures and Algorithms'
+  subCat: CSE5331
+  description: "Design/analysis of algorithms and data structures; divide-and-conquer;
+    sorting and selection, search trees, hashing, graph algorithms, string matching;
+    probabilistic analysis; randomized algorithms; NP-completeness.\r\nPrereq: 2231
+    or 321, and 2321 or Math 366, and 2566 (566), and Stat 3470 (427). Not open to
+    students with credit for 2331 (680)."
+  teachers:
+  - Ali AlilooeeDolatabad
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: Computer Networking and Internet Technologies
+  subCat: CSE5461
+  description: |-
+    Computer networks, communication protocols, Internet TCP/IP and applications, wireless communications and network security.
+    Prereq: 2451, and 2421 or ECE 2560 (265). Concur: 2431. Not open to students with credit for 3461 (677).
+  teachers:
+  - Jim Vickroy
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: Computer Game and Animation Techniques
+  subCat: CSE5541
+  description: |-
+    Fundamental algorithms and mathematics in the production of computer animation and video games, emphasizing the control and rendering of animated characters.
+    Prereq: 3901 or 3902 or 3903 (560). Not open to students with credit for 3541 (683).
+  teachers:
+  - Naeem Omar Shareef
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: 'Capstone Design: Knowledge-Based Systems'
+  subCat: CSE5914
+  description: |-
+    Capstone design project; conceptual and technical design; theory and practice of knowledge-based systems; teamwork, written and oral communication skills.
+    Prereq: 3521 or 5521, and 2501 or Philos 1338, and CSE 3901 or 3902 or 3903, and second writing course; or Grad standing.
+  teachers: []
+  maxCH: 4
+  minCH: 4
+- !ruby/object:Course
+  title: 'Capstone Design: Information Systems'
+  subCat: CSE5915
+  description: |-
+    Capstone design project; information system principles: database design methods and tools, indexing, searching, application development, testing, evaluation; teamwork, written and oral communication skills.
+    Prereq: 3241 or 5241, and 2501 or Philos 1338, and CSE 3901 or 3902 or 3903, and second writing course; or Grad standing.
+  teachers: []
+  maxCH: 4
+  minCH: 4
+- !ruby/object:Course
+  title: Advanced Studies in Software Engineering
+  subCat: CSE6239
+  description: "Advanced-level topics in software engineering.\r\nRepeatable to a
+    maximum of 24 cr hrs or 8 completions. This course is graded S/U."
+  teachers:
+  - Rajiv Ramnath
+  maxCH: 3
+  minCH: 1
+- !ruby/object:Course
+  title: PhD Research in Computer Science and Engineering
+  subCat: CSE8998
+  description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
+    a maximum of 10 completions. This course is graded S/U."
+  teachers:
+  - Srinivasan Parthasarathy
+  - Spyros Blanas
+  - Jian Chen
+  - Jim Davis
+  - Shaileshh Bojja Venkatakrishnan
+  - raghu Machiraju
+  - Facundo Memoli Techera
+  - Arnab Nandi
+  - Rajiv Ramnath
+  - Ness B Shroff
+  - Prasun Sinha
+  - Huan Sun
+  - Anish Kumar Arora
+  - Raef B Bassily
+  - Mike Bond
+  - Han-Wei Shen
+  - Radu Teodorescu
+  - Deliang Wang
+  - Xiaodong Zhang
+  - Umit V. Catalyurek
+  - Roger Crawfis
+  - Eric Fosler-Lussier
+  - Feng Qin
+  - Atanas Ivanov Rountev
+  - Paul Sivilotti
+  - Kannan Athreya
+  - Christopher Charles Stewart
+  - Rephael S Wenger
+  - Aylin Yener
+  - Tanya Berger-Wolf
+  - Steve Lai
+  - Zhiqiang Lin
+  - Wei-Lun Chao
+  - Kenneth Jay Supowit
+  - Huamin Wang
+  - Bryan Choi
+  - Kun Huang
+  - Pooya Hatami
+  - Yang Wang
+  - Yu Su
+  - Dong Xuan
+  - Dhabaleswar Kumar Panda
+  maxCH: 10
+  minCH: 0.5
+- !ruby/object:Course
+  title: 'Software I: Software Components'
+  subCat: CSE5022
+  description: "Intellectual foundations of software engineering; design-by-contract
+    principles; mathematical modeling of software functionality; component-based software
+    from client perspective; layered data representation. Previous programming experience
+    in any language required.\r\nPrereq: At least one term of Calculus. Not open to
+    students with credit for 2221, 2231, 4221, 321, or 502. Not open to students enrolled
+    in a CSE or CIS major."
+  teachers:
+  - Adam Russell Grupa
+  - Timothy Carpenter
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: 'Software II: Software Development and Design'
+  subCat: CSE5023
+  description: "Data representation using hashing, search trees, and linked data structures;
+    algorithms for sorting; using trees for language processing; component interface
+    design; best practices in Java.\r\nPrereq: 2221 or 5022. Not open to students
+    with credit for 2231, 2231.01, 321, or 421."
+  teachers:
+  - Rob LaTour
+  - Paolo Bucci
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Individual Studies in Computer Science and Engineering
+  subCat: CSE4193
+  description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  teachers:
+  - Syedah Zahra Atiq
+  - Spyros Blanas
+  - Matt Boggus
+  - Jim Davis
+  - Wayne Heym
+  - Steve Lai
+  - Xia Ning
+  - Thomas Bihari
+  - Srinivasan Parthasarathy
+  - Pooya Hatami
+  - Paul Sivilotti
+  - Kenneth Jay Supowit
+  - Deliang Wang
+  - Rephael S Wenger
+  - Dong Xuan
+  - Xiaodong Zhang
+  - Raef B Bassily
+  - Tanya Berger-Wolf
+  - Umit V. Catalyurek
+  - Roger Crawfis
+  - Ness B Shroff
+  - Prasun Sinha
+  - Julia Armstrong
+  - Anish Kumar Arora
+  - Bryan Choi
+  - Victor X Jin
+  - Furrukh Saeed Khan
+  - Zhiqiang Lin
+  - Arnab Nandi
+  - Rajiv Ramnath
+  - Steve Romig
+  - Atanas Ivanov Rountev
+  - Naeem Omar Shareef
+  - Han-Wei Shen
+  - Radu Teodorescu
+  - Yu Su
+  - Aylin Yener
+  - Shaileshh Bojja Venkatakrishnan
+  - Eric Fosler-Lussier
+  - Kun Huang
+  - Wei-Lun Chao
+  - Christopher Charles Stewart
+  - Huan Sun
+  - Huamin Wang
+  - Yang Wang
+  - Ping Zhang
+  - Mike Bond
+  - Paolo Bucci
+  - Jian Chen
+  - Jeffrey Scott Jones
+  - raghu Machiraju
+  - Facundo Memoli Techera
+  - Jeremy John Morris
+  - Dhabaleswar Kumar Panda
+  - Feng Qin
+  - Kannan Athreya
+  maxCH: 10
+  minCH: 1
+- !ruby/object:Course
+  title: Individual Studies in Computer Science and Engineering
+  subCat: CSE6193
+  description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  teachers:
+  - Raef B Bassily
+  - Spyros Blanas
+  - Mike Bond
+  - Paolo Bucci
+  - Jian Chen
+  - Bryan Choi
+  - Jim Davis
+  - Eric Fosler-Lussier
+  - Victor X Jin
+  - Jeffrey Scott Jones
+  - Furrukh Saeed Khan
+  - Facundo Memoli Techera
+  - Jeremy John Morris
+  - Xia Ning
+  - Dhabaleswar Kumar Panda
+  - Srinivasan Parthasarathy
+  - Feng Qin
+  - Rajiv Ramnath
+  - Pooya Hatami
+  - Wei-Lun Chao
+  - Christopher Charles Stewart
+  - Huan Sun
+  - Kenneth Jay Supowit
+  - Radu Teodorescu
+  - Huamin Wang
+  - Xiaodong Zhang
+  - Syedah Zahra Atiq
+  - Atanas Ivanov Rountev
+  - Tanya Berger-Wolf
+  - Umit V. Catalyurek
+  - Roger Crawfis
+  - Kun Huang
+  - Steve Lai
+  - Zhiqiang Lin
+  - raghu Machiraju
+  - Han-Wei Shen
+  - Paul Sivilotti
+  - Kannan Athreya
+  - Dong Xuan
+  - Ping Zhang
+  - Shaileshh Bojja Venkatakrishnan
+  - Thomas Bihari
+  - Ness B Shroff
+  - Prasun Sinha
+  - Deliang Wang
+  - Yu Su
+  - Rephael S Wenger
+  - Arnab Nandi
+  - Yang Wang
+  - Anish Kumar Arora
+  - Aylin Yener
+  maxCH: 10
+  minCH: 1
+- !ruby/object:Course
+  title: MS Research in Computer Science and Engineering
+  subCat: CSE6998
+  description: "MS research in Computer Science and Engineering.\r\nRepeatable to
+    a maximum of 10 completions. This course is graded S/U."
+  teachers:
+  - Spyros Blanas
+  - Bryan Choi
+  - Roger Crawfis
+  - Jim Davis
+  - Shaileshh Bojja Venkatakrishnan
+  - Kun Huang
+  - Furrukh Saeed Khan
+  - Steve Lai
+  - Jeremy John Morris
+  - Srinivasan Parthasarathy
+  - Feng Qin
+  - Han-Wei Shen
+  - Ness B Shroff
+  - Paul Sivilotti
+  - Christopher Charles Stewart
+  - Huan Sun
+  - Huamin Wang
+  - Yang Wang
+  - Yu Su
+  - Ping Zhang
+  - Xiaodong Zhang
+  - Eric Fosler-Lussier
+  - Dhabaleswar Kumar Panda
+  - Wei-Lun Chao
+  - Anish Kumar Arora
+  - Raef B Bassily
+  - Arnab Nandi
+  - Xia Ning
+  - Deliang Wang
+  - Syedah Zahra Atiq
+  - Tanya Berger-Wolf
+  - Umit V. Catalyurek
+  - Victor X Jin
+  - raghu Machiraju
+  - Facundo Memoli Techera
+  - Thomas Bihari
+  - Prasun Sinha
+  - Rephael S Wenger
+  - Aylin Yener
+  - Mike Bond
+  - Jian Chen
+  - Zhiqiang Lin
+  - Rajiv Ramnath
+  - Pooya Hatami
+  - Atanas Ivanov Rountev
+  - Kenneth Jay Supowit
+  - Dong Xuan
+  - Kannan Athreya
+  - Radu Teodorescu
+  maxCH: 10
+  minCH: 0.5
+- !ruby/object:Course
+  title: MS Thesis Research in Computer Science and Engineering
+  subCat: CSE6999
+  description: "MS research in Computer Science and Engineering, leading to a thesis.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  teachers:
+  - Raef B Bassily
+  - Tanya Berger-Wolf
+  - Umit V. Catalyurek
+  - Jian Chen
+  - Eric Fosler-Lussier
+  - Kun Huang
+  - Victor X Jin
+  - Furrukh Saeed Khan
+  - Steve Lai
+  - Zhiqiang Lin
+  - raghu Machiraju
+  - Facundo Memoli Techera
+  - Jeremy John Morris
+  - Arnab Nandi
+  - Dhabaleswar Kumar Panda
+  - Srinivasan Parthasarathy
+  - Rajiv Ramnath
+  - Pooya Hatami
+  - Wei-Lun Chao
+  - Ness B Shroff
+  - Paul Sivilotti
+  - Huamin Wang
+  - Yang Wang
+  - Aylin Yener
+  - Dong Xuan
+  - Anish Kumar Arora
+  - Mike Bond
+  - Prasun Sinha
+  - Spyros Blanas
+  - Atanas Ivanov Rountev
+  - Christopher Charles Stewart
+  - Huan Sun
+  - Kenneth Jay Supowit
+  - Yu Su
+  - Bryan Choi
+  - Han-Wei Shen
+  - Radu Teodorescu
+  - Deliang Wang
+  - Xia Ning
+  - Thomas Bihari
+  - Feng Qin
+  - Rephael S Wenger
+  - Ping Zhang
+  - Xiaodong Zhang
+  - Roger Crawfis
+  - Jim Davis
+  - Shaileshh Bojja Venkatakrishnan
+  - Kannan Athreya
+  - Syedah Zahra Atiq
+  maxCH: 10
+  minCH: 1
+- !ruby/object:Course
+  title: PhD Dissertation Research in Computer Science and Engineering
+  subCat: CSE8999
+  description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  teachers:
+  - raghu Machiraju
+  - Facundo Memoli Techera
+  - Feng Qin
+  - Rajiv Ramnath
+  - Han-Wei Shen
+  - Ness B Shroff
+  - Huan Sun
+  - Huamin Wang
+  - Dong Xuan
+  - Anish Kumar Arora
+  - Umit V. Catalyurek
+  - Steve Lai
+  - Pooya Hatami
+  - Wei-Lun Chao
+  - Prasun Sinha
+  - Aylin Yener
+  - Mike Bond
+  - Roger Crawfis
+  - Eric Fosler-Lussier
+  - Kun Huang
+  - Zhiqiang Lin
+  - Atanas Ivanov Rountev
+  - Paul Sivilotti
+  - Kannan Athreya
+  - Kenneth Jay Supowit
+  - Radu Teodorescu
+  - Deliang Wang
+  - Rephael S Wenger
+  - Tanya Berger-Wolf
+  - Jim Davis
+  - Shaileshh Bojja Venkatakrishnan
+  - Arnab Nandi
+  - Dhabaleswar Kumar Panda
+  - Raef B Bassily
+  - Spyros Blanas
+  - Jian Chen
+  - Bryan Choi
+  - Srinivasan Parthasarathy
+  - Yang Wang
+  - Yu Su
+  - Xiaodong Zhang
+  - Christopher Charles Stewart
+  maxCH: 10
+  minCH: 1
+- !ruby/object:Course
+  title: Professional Practice in Industry
+  subCat: CSE4191
+  description: "Preparation and submission of a comprehensive report based on actual
+    employment experience in a co-op job in industry.\r\nPrereq: Permission of the
+    CSE Advising Office. Repeatable to a maximum of 8 completions. This course is
+    progress graded (S/U)."
+  teachers:
+  - Nikola Dale Strader
+  maxCH: 0
+  minCH: 0
+- !ruby/object:Course
+  title: Introduction to Computing Technology
+  subCat: CSE1110
+  description: |-
+    A course of general interest giving experience with personal computer software, e.g., word processors and spreadsheets; provides fundamental computer literacy; neither teaches nor requires programming.
+    Prereq: Not open to students with credit for 1111 or 1113.
+  teachers:
+  - Michelle Ann Mallon
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: 'Foundations I: Discrete Structures'
+  subCat: CSE2321
+  description: |-
+    Propositional and first-order logic; basic proof techniques; graphs, trees; analysis of algorithms; asymptotic analysis; recurrence relations.
+    Prereq: 2122, 2123, or 2221; and Math 1151, or 1161. Concur (for students with credit for 2221): 2231.
+  teachers:
+  - Doreen Phyllis Close
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: 'Foundations I: Discrete Structures'
+  subCat: CSE5032
+  description: |-
+    Propositional and first-order logic; basic proof techniques; graphs, trees; analysis of algorithms; asymptotic analysis; recurrence relations.
+    Prereq: 5022 or equiv. Not open to students with credit for 2321, 625, or 680.
+  teachers:
+  - Doreen Phyllis Close
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: Undergraduate Research in Computer Science and Engineering
+  subCat: CSE4998H
+  description: "Opportunity for undergraduate student to conduct research in Computer
+    Science and Engineering.\r\nPrereq: Honors standing, and permission of instructor.
+    Repeatable to a maximum of 10 cr hrs or 10 completions. This course is graded
+    S/U."
+  teachers:
+  - Jim Davis
+  - Jeremy John Morris
+  maxCH: 10
+  minCH: 1
+- !ruby/object:Course
+  title: Undergraduate Research in Computer Science and Engineering
+  subCat: CSE4998
+  description: "Opportunity for undergraduate student to conduct research in Computer
+    Science and Engineering.\r\nPrereq: Permission of instructor. Repeatable to a
+    maximum of 10 cr hrs or 10 completions. This course is graded S/U."
+  teachers:
+  - Golrokh Mirzaei
+  - Yang Wang
+  - raghu Machiraju
+  maxCH: 10
+  minCH: 1
+- !ruby/object:Course
+  title: Advanced Studies in Computer Architecture
+  subCat: CSE6429
+  description: "Advanced-level topics in computer architecture.\r\nRepeatable to a
+    maximum of 24 cr hrs or 8 completions. This course is graded S/U."
+  teachers:
+  - Dhabaleswar Kumar Panda
+  maxCH: 3
+  minCH: 1
+- !ruby/object:Course
+  title: 'Foundations II: Data Structures and Algorithms'
+  subCat: CSE2331
+  description: |-
+    Design/analysis of algorithms and data structures; divide-and-conquer; sorting and selection, search trees, hashing, graph algorithms, string matching; probabilistic analysis; randomized algorithms; NP-completeness.
+    Prereq: 2231, 2321, and Stat 3460 or 3470, and enrollment in CSE, CIS, ECE, Data Analytics, or Math major, or CIS minor. Concur: Math 3345. Not open to students with credit for 5331.
+  teachers:
+  - Ali AlilooeeDolatabad
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Software Requirements Analysis
+  subCat: CSE3232
+  description: |-
+    Information systems analysis; object-oriented analysis models and tools; use cases, system modeling using UML; requirements specification development; term project.
+    Prereq: 3241, 3901, 3902, 3903, or 5241; and enrollment in CIS, CSE, ECE, or Business Info Sys major. Not open to students with credit for 5232.
+  teachers:
+  - Jennifer Bentley
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: 'Capstone Design: Software Applications'
+  subCat: CSE5911
+  description: |-
+    Capstone design project: application of software engineering techniques, methodologies and technologies in software lifecycle activities using enterprise software frameworks; teamwork, written and oral communication.
+    Prereq: 3231 or 5231, and 2501 or Philos 1338, and CSE 3901 or 3902 or 3903, and second writing course; or Grad standing.
+  teachers: []
+  maxCH: 4
+  minCH: 4
+- !ruby/object:Course
+  title: Modeling and Problem Solving with Spreadsheets and Databases
+  subCat: CSE2111
+  description: |-
+    Spreadsheet and database modeling/programming concepts and techniques to solve business related problems; efficient/effective data handling, computational analysis and decision support. Additional topics: computer concepts, networking, project integration.
+    Prereq: Math 1130 or above, or Math Placement Level L. Not open to students with credit for 1111 or 1112. This course is available for EM credit. GE quant reason math and logical anly course.
+  teachers:
+  - Catherine McKinley
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: 'Systems I: Introduction to Low-Level Programming and Computer Organization'
+  subCat: CSE2421
+  description: |-
+    Introduction to computer architecture at machine and assembly language level; pointers and addressing; C programming at machine level; computer organization.
+    Prereq: 2122, 2123, or 2231; and 2321 or Math 2566; and enrollment in CSE, CIS, Data Analytics, Music (BS), Eng Physics, or Math major.
+  teachers:
+  - George Green
+  - Rob LaTour
+  maxCH: 4
+  minCH: 4
+- !ruby/object:Course
+  title: Computer Science and Engineering Research for Thesis
+  subCat: CSE4999H
+  description: "Supervised research and project work arranged individually for honors
+    students.\r\nPrereq: Honors standing, and permission of instructor. Repeatable
+    to a maximum of 10 cr hrs or 10 completions. This course is graded S/U."
+  teachers:
+  - Jeremy John Morris
+  maxCH: 10
+  minCH: 1
+- !ruby/object:Course
+  title: Comparative Operating Systems
+  subCat: CSE5434
+  description: |-
+    A careful examination of a number of representative computer operating systems.
+    Prereq: 2431 (660) or 5431. Not open to students with credit for 741.
+  teachers:
+  - John W Heimaster
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Introduction to Computer Programming in C++ for Engineers and Scientists
+  subCat: CSE1222
+  description: |-
+    Introduction to computer programming and to problem solving techniques using computer programs with applications in engineering and the physical sciences; algorithm development; programming lab experience.
+    Concur: Math 1151, 1154, or 1161. Not open to students with credit for Engr 1281.01 or 1281.02. This course is available for EM credit.
+  teachers:
+  - Joe Barker
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Data Structures Using Java
+  subCat: CSE2123
+  description: |-
+    Subroutines and modular programming; searching; basic data structures; recursion; introduction to sequential files.
+    Prereq: 1223.
+  teachers:
+  - Zina Pichkar
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: 'Systems II: Introduction to Operating Systems'
+  subCat: CSE2431
+  description: |-
+    Introduction to operating system concepts: process, CPU scheduling, memory management, file system and storage, and multi-threaded programming.
+    Prereq: 2421, or 2451 and ECE 2560; and enrollment in CSE, CIS, Data Analytics, Engr Physics, or ECE major. Not open to students with credit for 5431.
+  teachers:
+  - Adam Christopher Champion
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Software Engineering Techniques
+  subCat: CSE3231
+  description: |-
+    Software engineering issues, techniques, methodologies and technologies; software lifecycle activities: requirements analysis, architecture, design, testing, deployment, maintenance; project management; enterprise software systems; frameworks.
+    Prereq: 3901 or 3902 or 3903. Not open to students with credit for 5231 (757).
+  teachers:
+  - Praveen Kumar
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Software Requirements Analysis
+  subCat: CSE5232
+  description: |-
+    Information systems analysis; object-oriented analysis models and tools; use cases, system modeling using UML; requirements specification development; term project.
+    Prereq: 3241 or 3901 or 3902 or 3903 (560) or 5241 (670). Not open to students with credit for 3232 (616).
+  teachers:
+  - Jennifer Bentley
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: 'Systems II: Introduction to Operating Systems'
+  subCat: CSE5431
+  description: |-
+    Introduction to operating system concepts: process, CPU scheduling, memory management, file system and storage, and multi-threaded programming.
+    Prereq: 5042 or equiv. Not open to students with credit for 2431 or 660.
+  teachers:
+  - Adam Christopher Champion
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: Advanced Studies in Artificial Intelligence
+  subCat: CSE6539
+  description: "Advanced-level topics in artificial intelligence.\r\nRepeatable to
+    a maximum of 24 cr hrs or 8 completions. This course is graded S/U."
+  teachers:
+  - Ping Zhang
+  maxCH: 3
+  minCH: 1
+- !ruby/object:Course
+  title: Programming in Python
+  subCat: CSE4256
+  description: |-
+    Python programming for students well-versed in programming with another imperative language.
+    Prereq: 2122, 2123, or 2231; and 2321; and enrollment in CSE, CIS, ECE, Engr Physics, or Data Analytics major, or CIS minor. This course is graded S/U.
+  teachers:
+  - Michael Fritz
+  maxCH: 1
+  minCH: 1
+- !ruby/object:Course
+  title: Introduction to Computer Programming in Java
+  subCat: CSE1223
+  description: |-
+    Introduction to computer programming and to problem solving techniques using computer programs; programming lab experience.
+    Prereq: Math 1130, 1140, 1149, 1150, or 1151, or Math Placement Level L. This course is available for EM credit.
+  teachers:
+  - Naomi Lynn Zweben
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: 'Survey of Artificial Intelligence I: Basic Techniques'
+  subCat: CSE3521
+  description: |-
+    Survey of basic concepts and techniques in artificial intelligence, including problem solving, knowledge representation, and machine learning.
+    Prereq: 2331 or 5331; and Math 2174 or 2568 or 4568 or 5520H; and Stat 3201 or 3450 or 3460 or 3470 or 4201 or Math 4530 or 5530H; and enrollment in CSE, CIS, ECE or Data Analytics major. Not open to students with credit for 5521.
+  teachers:
+  - Joe Barker
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Social, Ethical, and Professional Issues in Computing
+  subCat: CSE2501
+  description: |-
+    Social, ethical, and professional issues facing computing professionals; ethical principles; discussion of case studies.
+    Prereq: 2122, 2123, or 2231; and Gen Ed Writing: Level 2; and enrollment in CSE or CIS major, or Information Security minor. Not open to students with credit for 5501.
+  teachers:
+  - Michelle Ann Mallon
+  maxCH: 1
+  minCH: 1
+- !ruby/object:Course
+  title: 'Systems I: Introduction to Low-Level Programming and Computer Organization'
+  subCat: CSE5042
+  description: |-
+    Introduction to computer architecture at machine and assembly language level; pointers and addressing; C programming at machine level; computer organization.
+    Prereq: 2122, 2123, or 2231; and 2321 or Math 2566; or Grad standing. Not open to students with credit for 2421.
+  teachers:
+  - George Green
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Principles of Programming Languages
+  subCat: CSE3341
+  description: |-
+    Formal languages and grammars; recursive descent parsing; data types, expressions, control structures, parameter passing; compilers and interpreters; memory management; functional programming principles.
+    Prereq: 2231, 2331 (680), and 2421, and 3901 (560), 3902, or 3903. Not open to students with credit for 5341 (655).
+  teachers:
+  - Timothy Carpenter
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Computer Game and Animation Techniques
+  subCat: CSE3541
+  description: |-
+    Fundamental algorithms and mathematics in production of computer animation and video games, emphasizing control and rendering of animated characters.
+    Prereq: 3901, 3902, or 3903; and enrollment in CSE, CIS, Music (BS), or ECE major. Not open to students with credit for 5541.
+  teachers:
+  - Naeem Omar Shareef
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Software Engineering Techniques
+  subCat: CSE5231
+  description: |-
+    Software engineering issues, techniques, methodologies and technologies; software lifecycle activities: requirements analysis, architecture, design, testing, deployment, maintenance; project management; enterprise software systems; frameworks.
+    Prereq: 3901 or 3902 or 3903 (560). Not open to students with credit for 3231 (757).
+  teachers:
+  - Praveen Kumar
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: Principles of Programming Languages
+  subCat: CSE5341
+  description: "Formal languages and grammars; recursive descent parsing; data types,
+    expressions, control structures, parameter passing; compilers and interpreters;
+    memory management; functional programming principles.\r\nPrereq: 2231, 2331 (680)
+    and 2421, and 3901 (560), 3902, or 3903. Not open to students with credit for
+    3341 (655)."
+  teachers:
+  - Timothy Carpenter
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: Information Security
+  subCat: CSE4471
+  description: |-
+    Introduction to security of digital information; threats and attacks; regulations; risk management; attack detection and response; cryptography; forensics; technical training and certifications.
+    Prereq: 2231 and 2321; and enrollment in CSE, CIS, ECE, or Data Analytics major, or Information Security or CIS minor.
+  teachers:
+  - David Edward Dalton
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: 'Survey of Artificial Intelligence I: Basic Techniques'
+  subCat: CSE5521
+  description: |-
+    Survey of the basic concepts and techniques in artificial Intelligence, including problem solving, knowledge representation, and machine learning.
+    Prereq: 2331 or 5331, or Grad standing. Not open to students with credit for 3521.
+  teachers:
+  - Joe Barker
+  maxCH: 2
+  minCH: 2
+- !ruby/object:Course
+  title: Social, Ethical, and Professional Issues in Computing
+  subCat: CSE5501
+  description: "Social, ethical, and professional issues facing computing professionals;
+    ethical principles; discussion of case studies.\r\nPrereq: 1222 or 1223 or 2231
+    or 214 or 222 or 230, and 2321 or Math 366, and Gen Ed Writing Level 2. Not open
+    to students with credit for 2501 (601)."
+  teachers:
+  - Michelle Ann Mallon
+  maxCH: 1
+  minCH: 1
+- !ruby/object:Course
+  title: 'Decision Sciences: Statistical Techniques'
+  subCat: BUSOBA2320
+  description: |-
+    Examination of the use of statistical techniques in managerial decision-making processes; statistical inference, simple and multiple regression, time series.
+    Prereq: Math 1131 (132), or 1151 (152); and Stat 1430 (133); and CSE 1113, or 2111 (200); and Econ 2001.01 (200). Prereq or Concur: Econ 2002.01 (201). Not open to students with credit for 330. This course is available for EM credit.
+  teachers:
+  - Bonnie E Schroeder
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Business Analytics
+  subCat: BUSOBA2321
+  description: |-
+    Examination of the use of business analytic models used in managerial decision making processes. Emphasis on formulation and interpretation of models; supported by spreadsheet based software.
+    Prereq: Math 1131 (132), or 1151 (152), or equivalent; and CSE 1113, or 2111 (200); and Econ 2001.01 (200), or equivalent; and Econ 2002.01 (201), or equivalent. Not open to students with credit for 331.
+  teachers:
+  - Terry L. Klinker II
+  maxCH: 1.5
+  minCH: 1.5
+- !ruby/object:Course
+  title: Design II with Honors Thesis Project
+  subCat: ECE4900H
+  description: |-
+    Application of design principles and methodology to conceptual and detailed technical design, implementation and testing, culminating in a capstone design project.
+    Prereq: Honors standing, and permission of department, and: Option 1: 2560, 3010, 3020, 3027, 3030, 3040, 3050, 3090, 3900, and Sr standing, and enrollment in Electrical Engineering Program of Study (EES subplan) of the ECE major. Prereq or concur: 3080 or Philos1332. Option 2: 2050 or 2100; 3020, 3027, 3090, 3561, 3567, 3900, CSE 2231, and 2451, and Sr standing, and enrollment in Computer Engineering Program of Study (CES subplan). Prereq or concur: 3080 or Philos 1332, and ECE 5362. Not open to students with credit for 4900, 4901, Engr 4903, or 5902.01.
+  teachers:
+  - Lee Carson Potter
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Experimental Physics Instrumentation and Data Analysis Lab
+  subCat: PHYSICS3700
+  description: |-
+    Construction, simulation and statistical analysis of data from advanced experiments in nuclear processes. Introduction to advanced instrumentation and computer controlled data acquisition. Computer programming is required.
+    Prereq: 1251, 1251H, or 1261; and CSE 1222, 1223, Engr 1281H, or Astron 1221. GE data anly course.
+  teachers:
+  - Richard Edward Leonard
+  maxCH: 3
+  minCH: 3
+- !ruby/object:Course
+  title: Linear Algebra
+  subCat: MATH2568
+  description: |-
+    Matrix algebra, vector spaces and linear maps, bases and dimension, eigenvalues and eigenvectors, applications.
+    Prereq: A grade of C- or above in 1172, 1544, 2153, 2162.xx, 2182H, or 4182H; or a grade of C- or above in both 1152 and CSE 2321. Not open to students with credit for 4568 or 5520H.
+  teachers: []
+  maxCH: 3
+  minCH: 3
