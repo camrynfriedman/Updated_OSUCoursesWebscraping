@@ -3,9 +3,34 @@ body {
 
 }
 
+.logo{
+width: 40%;
+height: 40%;
+
+
+}
+
+.top{
+    padding: 0.2em;
+    border: solid 1px;
+    border-radius: 3px;
+    height: auto;
+    margin-bottom: 50px;
+}
 
 .middle {
-padding: 0.2em;
-border: solid 1px;
-border-radius: 3px;
+    padding: 0.2em;
+    border: solid 1px;
+    border-radius: 3px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    padding: 0.2em;
+    border: solid 1px;
+    border-radius: 3px;
+    height: auto;
+    margin-top: 50px;
 }
