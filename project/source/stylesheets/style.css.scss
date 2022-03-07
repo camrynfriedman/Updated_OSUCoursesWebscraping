@@ -1,21 +1,60 @@
 body {
-    background: rgba(61, 61, 61, 0.1);
+    background: rgba(138, 134, 134, 0.1);
 
 }
+
+
 
 .logo{
-width: 40%;
-height: 40%;
+transform: scale(0.8);
+height: 99px;
+width: 600px;
+float: right;
+
+}
+
+a {
+    text-decoration: none; 
+}
+
+.buttons { 
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+
+
+.nav-link{
+    background:rgba(128, 124, 124, 0.1);
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 150%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(19, 18, 18, 0.8);
+}
+
+ .authors{
+    
 
 
 }
 
-.top{
+.active{
+    background:rgba(104, 101, 101, 0.1);
+
+
+}
+
+.header{
     padding: 0.2em;
-    border: solid 1px;
-    border-radius: 3px;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
 }
 
 .middle {
@@ -27,10 +66,12 @@ height: 40%;
     margin-bottom: 50px;
 }
 
-.footer {
+.footer .authors {
     padding: 0.2em;
-    border: solid 1px;
-    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: auto;
     margin-top: 50px;
+    background:rgba(128, 124, 124, 0.1);
+    font-family:Arial, Helvetica, sans-serif;
 }
