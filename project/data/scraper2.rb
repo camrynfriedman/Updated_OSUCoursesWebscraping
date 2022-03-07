@@ -3,14 +3,17 @@ require 'json'
 require 'yaml'
 
 class Course
-    attr_reader :title, :subCat, :description, :teachers, :maxCH, :minCH
-    def initialize(title, subCat, description, teachers, maxCH, minCH)
+    attr_reader :title, :subCat, :description, :teach, :maxCH, :minCH, :room, :classNum, :section
+    def initialize(title, subCat, description, teach, maxCH, minCH, room, classNum, section)
         @title = title
         @subCat = subCat
         @description = description
-        @teachers = teachers
+        @teach = teach
         @maxCH = maxCH
         @minCH = minCH
+        @room = room
+        @classNum = classNum
+        @section = section
     end
 end
 
@@ -67,33 +70,14 @@ class Scraper
             newTitle = item["course"]["title"]
             newSubCat = item["course"]["subject"] + item["course"]["catalogNumber"]
             newDesc = item["course"]["description"]
-            newTeachArray = []
             newMaxCH = item["course"]["maxUnits"]
             newMinCH = item["course"]["minUnits"]
             item["sections"].each do |section|
-                if !(newTeachArray.include? section["meetings"][0]["instructors"][0]["displayName"]) && (section["meetings"][0]["instructors"][0]["displayName"] != nil)
-                    newTeachArray << section["meetings"][0]["instructors"][0]["displayName"]
-                end
-            end 
-            courseDoesntExist = true
-            @courseCatalog.each do |existing|
-                if courseDoesntExist && existing.subCat == newSubCat
-                    courseDoesntExist = false
-                    newTeachArray.each do |newT|
-                        teachDoesntExist = true
-                        existing.teachers.each do |oldT|
-                            if teachDoesntExist && oldT == newT
-                                teachDoesntExist = false
-                            end
-                        end
-                        if teachDoesntExist
-                            existing.teachers << newT
-                        end
-                    end
-                end
-            end
-            if courseDoesntExist
-                @courseCatalog << Course.new(newTitle, newSubCat, newDesc, newTeachArray, newMaxCH, newMinCH)
+                newTeach = section["meetings"][0]["instructors"][0]["displayName"]
+                newRoom = section["meetings"][0]["buildingDescription"]
+                newClassNum = section["classNumber"]
+                newSection = section["section"]
+                @courseCatalog << Course.new(newTitle, newSubCat, newDesc, newTeach, newMaxCH, newMinCH, newRoom, newClassNum, newSection)
             end
         end
     end
@@ -116,7 +100,7 @@ totalPages = @scraper.store_all_courses_page()
 for i in 1..totalPages
     @scraper.get_course_info(i)
 end
-File.open "../data/course.yml", "w" do |file|
+File.open "project/data/course.yml", "w" do |file|
 file << @scraper.courseCatalog.to_yaml
 end
 
