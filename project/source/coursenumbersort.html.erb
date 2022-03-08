@@ -13,4 +13,17 @@
      <a href= "buildingsort.html" class="nav-link">Buildings</a>
   </li>
 </ul>
+
+<h2>Course Numbers</h2>
+<table>
+   <tr><th>Course Number</th></tr>
+   <% data.course.sort{|a, b| a.classNum <=> b.classNum}.each do |row| %>
+      <tr>
+         <td><%= row.classNum %></td>
+         <td><%= row.title %></td>
+         <td><%= row.subCat %></td>
+         <td><%= row.teach %></td>
+      </tr>
+   <% end %>
+</table>
 </div>
