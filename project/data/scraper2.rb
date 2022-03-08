@@ -73,11 +73,17 @@ class Scraper
             newMaxCH = item["course"]["maxUnits"]
             newMinCH = item["course"]["minUnits"]
             item["sections"].each do |section|
-                newTeach = section["meetings"][0]["instructors"][0]["displayName"]
-                newRoom = section["meetings"][0]["buildingDescription"]
-                newClassNum = section["classNumber"]
-                newSection = section["section"]
-                @courseCatalog << Course.new(newTitle, newSubCat, newDesc, newTeach, newMaxCH, newMinCH, newRoom, newClassNum, newSection)
+                @courseCatalog["#{newSubCat}_#{section["classNumber"]}"] = {
+                    "title": newTitle, 
+                    "subCat": newSubCat,
+                    "description": newDesc,
+                    "course_number": section["classNumber"],
+                    "section": section["section"],
+                    "instructor": section["meetings"][0]["instructors"][0]["displayName"],
+                    "room": section["meetings"][0]["room"]
+                }
+
+
             end
         end
     end
@@ -100,7 +106,7 @@ totalPages = @scraper.store_all_courses_page()
 for i in 1..totalPages
     @scraper.get_course_info(i)
 end
-File.open "project/data/course.yml", "w" do |file|
+File.open "../data/course.yml", "w" do |file|
 file << @scraper.courseCatalog.to_yaml
 end
 

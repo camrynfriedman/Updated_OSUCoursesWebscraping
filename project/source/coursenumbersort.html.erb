@@ -27,3 +27,17 @@
    <% end %>
 </table>
 </div>
+
+<%# {% assign course_list = data.course_sorted_by_course_number | sort %} %>
+    <% data.course_sorted_by_course_number.each do |key, value| %>
+      <tr>
+        <th scope="row"><%= key %></th>
+        <td><%= value[:course_number] %></td>
+        <td><%= value[:section] %></td>
+        <td><%= value[:title] %></td>
+        <td><%= value[:building] %></td>
+        <td><%= value[:room] %></td>
+        <td><%= value[:instructor] %></td>
+      </tr>
+    <% end %>
+  </tbody>
