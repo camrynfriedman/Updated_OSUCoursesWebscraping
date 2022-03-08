@@ -13,4 +13,39 @@
      <a href= "buildingsort.html" class="nav-link">Buildings</a>
   </li>
 </ul>
+
+<h2>Sort by Building and Room Number</h2>
+<p> Some courses have not been assigned a location yet. Please scroll to the botttom to find an alphabetical list of courses with valid building/room numbers.</p>
+<table>
+   <head>
+      <style>
+         table, th, td {
+         border: 1px solid black;
+      }
+      </style>
+   </head>
+
+   <thead>
+      <tr>
+         <th scope="col">Course Number</th>
+         <th scope="col">Section</th>
+         <th scope="col">Title</th>
+         <th scope="col">Building</th>
+         <th scope="col">Room</th>
+         <th scope="col">Instructor</th>
+      </tr>
+   </thead>
+
+   <%data.course.sort_by {|_key, value| [value[:building]? 1 : 0, value[:building], value[:room].to_i]}.each do |key, value|%> 
+      <tr>
+         <td><%= value[:course_number] %></td>
+         <td><%= value[:section] %></td>
+         <td><%= value[:title] %></td>
+         <td><%= value[:building] %></td>
+         <td><%= value[:room] %></td>
+         <td><%= value[:instructor] %></td>
+      </tr>
+   <% end %>
+</table>
+
 </div>
