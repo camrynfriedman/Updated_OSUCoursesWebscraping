@@ -4,7 +4,6 @@ body {
 }
 
 
-
 .logo{
 transform: scale(0.8);
 height: 99px;
@@ -22,8 +21,9 @@ a {
     display:flex;
     flex-direction: row;
     list-style: none;
-
+    
 }
+
 
 
 
@@ -39,9 +39,12 @@ a {
     color: rgba(19, 18, 18, 0.8);
 }
 
- .authors{
     
 
+
+.paragraph{
+    border: solid 1px;
+    border-radius: 3px;
 
 }
 
@@ -59,8 +62,7 @@ a {
 
 .middle {
     padding: 0.2em;
-    border: solid 1px;
-    border-radius: 3px;
+
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
