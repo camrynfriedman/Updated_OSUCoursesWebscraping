@@ -17,15 +17,7 @@
 <h2>Sort by Building and Room Number</h2>
 <p> Please check the table below to find an alphabetical list of courses sorted by building/room number. Please note that some information in the table may be empty because the values have not been assigned in the website yet.</p>
 <table>
-   <head>
-      <style>
-         table, th, td {
-         border: 1px solid black;
-      }
-      </style>
-   </head>
 
-   <thead>
       <tr>
          <th scope="col">Course Number</th>
          <th scope="col">Section</th>
@@ -33,7 +25,6 @@
          <th scope="col">Building</th>
          <th scope="col">Instructor</th>
       </tr>
-   </thead>
 
    <%data.course.sort_by {|_key, value| [value[:building]? 1 : 0, value[:building], value[:room].to_i]}.each do |key, value|%> 
       <% if !value[:building].blank? %>

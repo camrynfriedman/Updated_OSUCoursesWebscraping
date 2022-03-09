@@ -17,24 +17,15 @@
 <h2>Sort by Instructor</h2>
 <p> Please check the table below to find an alphabetical list of courses sorted by instructor. Please note that some information in the table may be empty because the values have not been assigned in the website yet.</p>
 <table>
-   <head>
-      <style>
-         table, th, td {
-         border: 1px solid black;
-      }
-      </style>
-   </head>
 
-   <thead>
-      <tr>
-         <th scope="col">Course Number</th>
-         <th scope="col">Section</th>
-         <th scope="col">Title</th>
-         <th scope="col">Building</th>
-         <th scope="col">Instructor</th>
-      </tr>
-   </thead>
-
+   <tr>
+       <th scope="col">Course Number</th>
+       <th scope="col">Section</th>
+       <th scope="col">Title</th>
+       <th scope="col">Building</th>
+       <th scope="col">Instructor</th>
+   </tr>
+   
    <%data.course.sort_by {|_key, value| [value[:instructor]? 1 : 0, value[:instructor]]}.each do |key, value|%> 
       <% if !value[:instructor].blank? %>
          <tr>

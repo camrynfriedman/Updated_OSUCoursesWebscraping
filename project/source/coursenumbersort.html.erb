@@ -16,15 +16,6 @@
 
 <h2>Sort by Course Number</h2>
 <table>
-   <head>
-      <style>
-         table, th, td {
-         border: 1px solid black;
-      }
-      </style>
-   </head>
-
-   <thead>
       <tr>
          <th scope="col">Course Number</th>
          <th scope="col">Section</th>
@@ -32,7 +23,6 @@
          <th scope="col">Building</th>
          <th scope="col">Instructor</th>
       </tr>
-   </thead>
 
    <%data.course.sort_by {|_key, value| value[:course_number].to_i}.each do |key, value|%> 
       <tr>
