@@ -15,7 +15,7 @@
 </ul>
 
 <h2>Sort by Instructor</h2>
-<p> Some courses have not been assigned an instructor yet. Please scroll to the botttom to find an alphabetical list of courses with valid instructors.</p>
+<p> Please check the table below to find an alphabetical list of courses sorted by instructor. Please note that some information in the table may be empty because the values have not been assigned in the website yet.</p>
 <table>
    <head>
       <style>
@@ -31,21 +31,34 @@
          <th scope="col">Section</th>
          <th scope="col">Title</th>
          <th scope="col">Building</th>
-         <th scope="col">Room</th>
          <th scope="col">Instructor</th>
       </tr>
    </thead>
 
    <%data.course.sort_by {|_key, value| [value[:instructor]? 1 : 0, value[:instructor]]}.each do |key, value|%> 
-      <tr>
-         <td><%= value[:course_number] %></td>
-         <td><%= value[:section] %></td>
-         <td><%= value[:title] %></td>
-         <td><%= value[:building] %></td>
-         <td><%= value[:room] %></td>
-         <td><%= value[:instructor] %></td>
-      </tr>
+      <% if !value[:instructor].blank? %>
+         <tr>
+            <td><%= value[:course_number] %></td>
+            <td><%= value[:section] %></td>
+            <td><%= value[:title] %></td>
+            <td><%= value[:building] %></td>
+            <td><%= value[:instructor] %></td>
+         </tr>
+      <% end %>
    <% end %>
+
+   <%data.course.sort_by {|_key, value| [value[:instructor]? 1 : 0, value[:instructor]]}.each do |key, value|%>  
+      <% if value[:instructor].blank? %>
+         <tr>
+            <td><%= value[:course_number] %></td>
+            <td><%= value[:section] %></td>
+            <td><%= value[:title] %></td>
+            <td><%= value[:building] %></td>
+            <td><%= value[:instructor] %></td>
+         </tr>
+      <% end %>
+   <% end %>
+
 </table>
 
 </div>
