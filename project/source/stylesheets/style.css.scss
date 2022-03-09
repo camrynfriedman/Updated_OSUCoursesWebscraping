@@ -2,7 +2,42 @@ body {
     background: rgba(179, 174, 174, 0.1);
 
 }
+ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
 
+p{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80, 80, 80);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width:100%;
+    border: 1px solid;
+
+}
+
+th{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td{
+}
+
+tr:nth-child(odd) {background-color: #dbdada;}
+tr:hover {background-color:rgba(179, 18, 18, 0.568)}
+tr:first-child {background-color: #dbdada}
 
 .logo{
 transform: scale(0.8);
@@ -11,9 +46,14 @@ width: 600px;
 float: right;
 
 }
+li{
+    float: left
+}
+
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
+    display: block;
 }
 
 .buttons { 
@@ -44,16 +84,15 @@ a {
 
     
 
-
-.paragraph{
+//Commented out because I don't see where this impacts anything
+/* .paragraph{
     border: solid 1px;
     border-radius: 3px;
 
-}
+} */
 
 .active{
     background:rgba(104, 101, 101, 0.1);
-
 
 }
 
