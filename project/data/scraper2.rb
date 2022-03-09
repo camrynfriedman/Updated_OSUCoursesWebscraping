@@ -27,7 +27,7 @@ class Scraper
         # An hashtable <<int>page_num: <hashTable>courses_data>, stores all the data about course
         @coursePages = {}
 
-        @courseCatalog = []
+        @courseCatalog = {}
         # menu_html = Nokogiri::HTML(menu['panels'][0]['html'])
         # course_content = json_data["data"]['courses'][0]["course"]["term"]
 	end
@@ -80,7 +80,7 @@ class Scraper
                     "course_number": section["classNumber"],
                     "section": section["section"],
                     "instructor": section["meetings"][0]["instructors"][0]["displayName"],
-                    "room": section["meetings"][0]["room"]
+                    "building": section["meetings"][0]["buildingDescription"]
                 }
 
 
