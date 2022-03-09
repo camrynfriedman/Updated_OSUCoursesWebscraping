@@ -14,6 +14,7 @@
   </li>
 </ul>
 
+<BR>
 <h2>Sort by Course Number</h2>
 <p>Please check the table below to find an alphabetical list of courses sorted by course number. Please note that some information in the table may be empty because the values have not been assigned in the website yet.</p>
 
@@ -27,9 +28,9 @@
          <th scope="col">Instructor</th>
       </tr>
 
-   <%data.course.sort_by {|_key, value| value[:course_number].to_i}.each do |key, value|%> 
+   <%data.course.sort_by {|_key, value| [value[:subCat]? 1 : 0, value[:subCat]]}.each do |key, value|%> 
       <tr>
-         <td><%= value[:course_number] %></td>
+         <td><%= value[:subCat] %></td>
          <td><%= value[:section] %></td>
          <td><%= value[:title] %></td>
          <td><%= value[:building] %></td>
