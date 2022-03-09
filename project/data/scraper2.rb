@@ -2,20 +2,6 @@ require 'mechanize'
 require 'json'
 require 'yaml'
 
-class Course
-    attr_reader :title, :subCat, :description, :teach, :maxCH, :minCH, :room, :classNum, :section
-    def initialize(title, subCat, description, teach, maxCH, minCH, room, classNum, section)
-        @title = title
-        @subCat = subCat
-        @description = description
-        @teach = teach
-        @maxCH = maxCH
-        @minCH = minCH
-        @room = room
-        @classNum = classNum
-        @section = section
-    end
-end
 
 class Scraper
 	attr_accessor :url, :coursePages, :courseCatalog
@@ -87,14 +73,6 @@ class Scraper
             end
         end
     end
-
-    def pretty_print(page_num)
-		puts "A exaustive list of courses in #{page_num}!"
-		@courseCatalog.each_with_index do |item, index|
-			# puts name.class
-			puts "#{index}; Course Number: #{item.subCat}; Course Title: #{item.title}"
-		end
-	end 
 
 end
 

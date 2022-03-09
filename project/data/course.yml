@@ -3653,17 +3653,6 @@ CSE5434_6305:
   :section: '0010'
   :instructor: John W Heimaster
   :building: Caldwell Lab 177
-CSE4998H_6613:
-  :title: Undergraduate Research in Computer Science and Engineering
-  :subCat: CSE4998H
-  :description: "Opportunity for undergraduate student to conduct research in Computer
-    Science and Engineering.\r\nPrereq: Honors standing, and permission of instructor.
-    Repeatable to a maximum of 10 cr hrs or 10 completions. This course is graded
-    S/U."
-  :course_number: '6613'
-  :section: '0100'
-  :instructor: Jeremy John Morris
-  :building: 
 CSE1222_5310:
   :title: Introduction to Computer Programming in C++ for Engineers and Scientists
   :subCat: CSE1222
@@ -3824,6 +3813,17 @@ CSE4256_8579:
   :section: '0010'
   :instructor: Michael Fritz
   :building: Scott Lab N048
+CSE4998H_6613:
+  :title: Undergraduate Research in Computer Science and Engineering
+  :subCat: CSE4998H
+  :description: "Opportunity for undergraduate student to conduct research in Computer
+    Science and Engineering.\r\nPrereq: Honors standing, and permission of instructor.
+    Repeatable to a maximum of 10 cr hrs or 10 completions. This course is graded
+    S/U."
+  :course_number: '6613'
+  :section: '0100'
+  :instructor: Jeremy John Morris
+  :building: 
 CSE6999_6713:
   :title: MS Thesis Research in Computer Science and Engineering
   :subCat: CSE6999
@@ -4058,15 +4058,6 @@ CSE6999_6782:
   :section: '0920'
   :instructor: Christopher Charles Stewart
   :building: 
-CSE6999_6783:
-  :title: MS Thesis Research in Computer Science and Engineering
-  :subCat: CSE6999
-  :description: "MS research in Computer Science and Engineering, leading to a thesis.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6783'
-  :section: '0930'
-  :instructor: Kenneth Jay Supowit
-  :building: 
 CSE6999_6788:
   :title: MS Thesis Research in Computer Science and Engineering
   :subCat: CSE6999
@@ -4094,14 +4085,14 @@ CSE6999_8112:
   :section: '1010'
   :instructor: Aylin Yener
   :building: 
-CSE6999_6791:
-  :title: MS Thesis Research in Computer Science and Engineering
-  :subCat: CSE6999
-  :description: "MS research in Computer Science and Engineering, leading to a thesis.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6791'
-  :section: '1030'
-  :instructor: Xiaodong Zhang
+CSE8998_8548:
+  :title: PhD Research in Computer Science and Engineering
+  :subCat: CSE8998
+  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
+    a maximum of 10 completions. This course is graded S/U."
+  :course_number: '8548'
+  :section: '0010'
+  :instructor: 
   :building: 
 CSE8998_8113:
   :title: PhD Research in Computer Science and Engineering
@@ -4211,15 +4202,6 @@ CSE8998_6405:
   :section: '0480'
   :instructor: Dong Xuan
   :building: 
-CSE8998_6619:
-  :title: PhD Research in Computer Science and Engineering
-  :subCat: CSE8998
-  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
-    a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6619'
-  :section: '0560'
-  :instructor: Umit V. Catalyurek
-  :building: 
 CSE8998_8287:
   :title: PhD Research in Computer Science and Engineering
   :subCat: CSE8998
@@ -4228,15 +4210,6 @@ CSE8998_8287:
   :course_number: '8287'
   :section: '0562'
   :instructor: Jian Chen
-  :building: 
-CSE8998_8114:
-  :title: PhD Research in Computer Science and Engineering
-  :subCat: CSE8998
-  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
-    a maximum of 10 completions. This course is graded S/U."
-  :course_number: '8114'
-  :section: '0565'
-  :instructor: Bryan Choi
   :building: 
 CSE8998_6620:
   :title: PhD Research in Computer Science and Engineering
@@ -4255,15 +4228,6 @@ CSE8998_6622:
   :course_number: '6622'
   :section: '0590'
   :instructor: Shaileshh Bojja Venkatakrishnan
-  :building: 
-CSE8998_6623:
-  :title: PhD Research in Computer Science and Engineering
-  :subCat: CSE8998
-  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
-    a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6623'
-  :section: '0600'
-  :instructor: Eric Fosler-Lussier
   :building: 
 CSE8998_6624:
   :title: PhD Research in Computer Science and Engineering
@@ -4328,15 +4292,6 @@ CSE8998_6637:
   :section: '0830'
   :instructor: Ness B Shroff
   :building: 
-CSE8998_6639:
-  :title: PhD Research in Computer Science and Engineering
-  :subCat: CSE8998
-  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
-    a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6639'
-  :section: '0860'
-  :instructor: Paul Sivilotti
-  :building: 
 CSE8998_6641:
   :title: PhD Research in Computer Science and Engineering
   :subCat: CSE8998
@@ -4372,24 +4327,6 @@ CSE8998_6648:
   :course_number: '6648'
   :section: '0970'
   :instructor: Rephael S Wenger
-  :building: 
-CSE8998_8118:
-  :title: PhD Research in Computer Science and Engineering
-  :subCat: CSE8998
-  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
-    a maximum of 10 completions. This course is graded S/U."
-  :course_number: '8118'
-  :section: '0975'
-  :instructor: Aylin Yener
-  :building: 
-CSE8998_6649:
-  :title: PhD Research in Computer Science and Engineering
-  :subCat: CSE8998
-  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
-    a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6649'
-  :section: '0980'
-  :instructor: Dong Xuan
   :building: 
 CSE8999_6793:
   :title: PhD Dissertation Research in Computer Science and Engineering
@@ -4526,33 +4463,6 @@ CSE8999_8292:
   :section: '0525'
   :instructor: Raef B Bassily
   :building: 
-CSE8999_6832:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6832'
-  :section: '0540'
-  :instructor: Spyros Blanas
-  :building: 
-CSE8999_6833:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6833'
-  :section: '0550'
-  :instructor: Mike Bond
-  :building: 
-CSE8999_8293:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '8293'
-  :section: '0562'
-  :instructor: Jian Chen
-  :building: 
 CSE8999_8122:
   :title: PhD Dissertation Research in Computer Science and Engineering
   :subCat: CSE8999
@@ -4570,24 +4480,6 @@ CSE8999_6835:
   :course_number: '6835'
   :section: '0570'
   :instructor: Roger Crawfis
-  :building: 
-CSE8999_6838:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6838'
-  :section: '0600'
-  :instructor: Eric Fosler-Lussier
-  :building: 
-CSE8999_6841:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6841'
-  :section: '0670'
-  :instructor: raghu Machiraju
   :building: 
 CSE8999_6842:
   :title: PhD Dissertation Research in Computer Science and Engineering
@@ -4607,15 +4499,6 @@ CSE8999_6845:
   :section: '0720'
   :instructor: Srinivasan Parthasarathy
   :building: 
-CSE8999_6847:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6847'
-  :section: '0780'
-  :instructor: Rajiv Ramnath
-  :building: 
 CSE8999_6849:
   :title: PhD Dissertation Research in Computer Science and Engineering
   :subCat: CSE8999
@@ -4634,24 +4517,6 @@ CSE8999_6852:
   :section: '0830'
   :instructor: Ness B Shroff
   :building: 
-CSE8999_6856:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6856'
-  :section: '0890'
-  :instructor: Christopher Charles Stewart
-  :building: 
-CSE8999_8123:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '8123'
-  :section: '0895'
-  :instructor: Huan Sun
-  :building: 
 CSE8999_6857:
   :title: PhD Dissertation Research in Computer Science and Engineering
   :subCat: CSE8999
@@ -4660,15 +4525,6 @@ CSE8999_6857:
   :course_number: '6857'
   :section: '0900'
   :instructor: Kenneth Jay Supowit
-  :building: 
-CSE8999_6858:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6858'
-  :section: '0910'
-  :instructor: Radu Teodorescu
   :building: 
 CSE8999_6860:
   :title: PhD Dissertation Research in Computer Science and Engineering
@@ -4688,15 +4544,6 @@ CSE8999_6861:
   :section: '0940'
   :instructor: Yang Wang
   :building: 
-CSE8999_6862:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6862'
-  :section: '0950'
-  :instructor: Yu Su
-  :building: 
 CSE8999_6863:
   :title: PhD Dissertation Research in Computer Science and Engineering
   :subCat: CSE8999
@@ -4705,24 +4552,6 @@ CSE8999_6863:
   :course_number: '6863'
   :section: '0970'
   :instructor: Rephael S Wenger
-  :building: 
-CSE8999_6865:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6865'
-  :section: '0990'
-  :instructor: Xiaodong Zhang
-  :building: 
-CSE8999_6866:
-  :title: PhD Dissertation Research in Computer Science and Engineering
-  :subCat: CSE8999
-  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
-    to a maximum of 10 completions. This course is graded S/U."
-  :course_number: '6866'
-  :section: '1000'
-  :instructor: 
   :building: 
 CSE1223_8566:
   :title: Introduction to Computer Programming in Java
@@ -4865,6 +4694,19 @@ CSE4191_8638:
   :section: '0010'
   :instructor: Nikola Dale Strader
   :building: 
+CSE5022_6102:
+  :title: 'Software I: Software Components'
+  :subCat: CSE5022
+  :description: "Intellectual foundations of software engineering; design-by-contract
+    principles; mathematical modeling of software functionality; component-based software
+    from client perspective; layered data representation. Previous programming experience
+    in any language required.\r\nPrereq: At least one term of Calculus. Not open to
+    students with credit for 2221, 2231, 4221, 321, or 502. Not open to students enrolled
+    in a CSE or CIS major."
+  :course_number: '6102'
+  :section: '0021'
+  :instructor: Adam Russell Grupa
+  :building: Dreese Lab 280
 CSE5022_8622:
   :title: 'Software I: Software Components'
   :subCat: CSE5022
@@ -4878,6 +4720,19 @@ CSE5022_8622:
   :section: '0030'
   :instructor: Timothy Carpenter
   :building: Dreese Lab 357
+CSE5022_8623:
+  :title: 'Software I: Software Components'
+  :subCat: CSE5022
+  :description: "Intellectual foundations of software engineering; design-by-contract
+    principles; mathematical modeling of software functionality; component-based software
+    from client perspective; layered data representation. Previous programming experience
+    in any language required.\r\nPrereq: At least one term of Calculus. Not open to
+    students with credit for 2221, 2231, 4221, 321, or 502. Not open to students enrolled
+    in a CSE or CIS major."
+  :course_number: '8623'
+  :section: '0031'
+  :instructor: Timothy Carpenter
+  :building: Dreese Lab 280
 CSE2501_8430:
   :title: Social, Ethical, and Professional Issues in Computing
   :subCat: CSE2501
@@ -4897,6 +4752,36 @@ CSE4193_5805:
   :course_number: '5805'
   :section: '0050'
   :instructor: Tanya Berger-Wolf
+  :building: 
+CSE4193_5807:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '5807'
+  :section: '0070'
+  :instructor: Mike Bond
+  :building: 
+CSE4193_5808:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '5808'
+  :section: '0080'
+  :instructor: Paolo Bucci
+  :building: 
+CSE4193_5809:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '5809'
+  :section: '0090'
+  :instructor: Umit V. Catalyurek
   :building: 
 CSE4193_8252:
   :title: Individual Studies in Computer Science and Engineering
@@ -4918,6 +4803,26 @@ CSE4193_5846:
   :section: '0120'
   :instructor: Shaileshh Bojja Venkatakrishnan
   :building: 
+CSE4193_5847:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '5847'
+  :section: '0130'
+  :instructor: Eric Fosler-Lussier
+  :building: 
+CSE4193_5849:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '5849'
+  :section: '0160'
+  :instructor: Kun Huang
+  :building: 
 CSE4193_8087:
   :title: Individual Studies in Computer Science and Engineering
   :subCat: CSE4193
@@ -4927,6 +4832,26 @@ CSE4193_8087:
   :course_number: '8087'
   :section: '0180'
   :instructor: Jeffrey Scott Jones
+  :building: 
+CSE4193_8436:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '8436'
+  :section: '0217'
+  :instructor: 
+  :building: 
+CSE4193_5971:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '5971'
+  :section: '0220'
+  :instructor: raghu Machiraju
   :building: 
 CSE4193_5972:
   :title: Individual Studies in Computer Science and Engineering
@@ -4948,6 +4873,16 @@ CSE4193_5973:
   :section: '0240'
   :instructor: Jeremy John Morris
   :building: 
+CSE4193_5975:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '5975'
+  :section: '0260'
+  :instructor: Dhabaleswar Kumar Panda
+  :building: 
 CSE4193_5977:
   :title: Individual Studies in Computer Science and Engineering
   :subCat: CSE4193
@@ -4957,6 +4892,26 @@ CSE4193_5977:
   :course_number: '5977'
   :section: '0300'
   :instructor: Feng Qin
+  :building: 
+CSE4193_5982:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '5982'
+  :section: '0370'
+  :instructor: Wei-Lun Chao
+  :building: 
+CSE4193_5986:
+  :title: Individual Studies in Computer Science and Engineering
+  :subCat: CSE4193
+  :description: "Designed to give the student an opportunity to pursue special studies
+    not otherwise offered.\r\nPrereq: Permission of instructor. Repeatable to a maximum
+    of 10 cr hrs or 10 completions. This course is graded S/U."
+  :course_number: '5986'
+  :section: '0420'
+  :instructor: Prasun Sinha
   :building: 
 CSE4193_5988:
   :title: Individual Studies in Computer Science and Engineering
@@ -5700,6 +5655,81 @@ CSE3541_8578:
   :section: '0010'
   :instructor: Naeem Omar Shareef
   :building: Dreese Lab 369
+CSE5231_8248:
+  :title: Software Engineering Techniques
+  :subCat: CSE5231
+  :description: |-
+    Software engineering issues, techniques, methodologies and technologies; software lifecycle activities: requirements analysis, architecture, design, testing, deployment, maintenance; project management; enterprise software systems; frameworks.
+    Prereq: 3901 or 3902 or 3903 (560). Not open to students with credit for 3231 (757).
+  :course_number: '8248'
+  :section: '0010'
+  :instructor: Praveen Kumar
+  :building: Baker Systems 180
+CSE5331_8570:
+  :title: 'Foundations II: Data Structures and Algorithms'
+  :subCat: CSE5331
+  :description: "Design/analysis of algorithms and data structures; divide-and-conquer;
+    sorting and selection, search trees, hashing, graph algorithms, string matching;
+    probabilistic analysis; randomized algorithms; NP-completeness.\r\nPrereq: 2231
+    or 321, and 2321 or Math 366, and 2566 (566), and Stat 3470 (427). Not open to
+    students with credit for 2331 (680)."
+  :course_number: '8570'
+  :section: '0020'
+  :instructor: Ali AlilooeeDolatabad
+  :building: Baker Systems 188
+CSE5341_8402:
+  :title: Principles of Programming Languages
+  :subCat: CSE5341
+  :description: "Formal languages and grammars; recursive descent parsing; data types,
+    expressions, control structures, parameter passing; compilers and interpreters;
+    memory management; functional programming principles.\r\nPrereq: 2231, 2331 (680)
+    and 2421, and 3901 (560), 3902, or 3903. Not open to students with credit for
+    3341 (655)."
+  :course_number: '8402'
+  :section: '0010'
+  :instructor: Timothy Carpenter
+  :building: Dreese Lab 369
+CSE4471_8250:
+  :title: Information Security
+  :subCat: CSE4471
+  :description: |-
+    Introduction to security of digital information; threats and attacks; regulations; risk management; attack detection and response; cryptography; forensics; technical training and certifications.
+    Prereq: 2231 and 2321; and enrollment in CSE, CIS, ECE, or Data Analytics major, or Information Security or CIS minor.
+  :course_number: '8250'
+  :section: '0010'
+  :instructor: David Edward Dalton
+  :building: Dreese Lab 369
+CSE5521_8635:
+  :title: 'Survey of Artificial Intelligence I: Basic Techniques'
+  :subCat: CSE5521
+  :description: |-
+    Survey of the basic concepts and techniques in artificial Intelligence, including problem solving, knowledge representation, and machine learning.
+    Prereq: 2331 or 5331, or Grad standing. Not open to students with credit for 3521.
+  :course_number: '8635'
+  :section: '0010'
+  :instructor: Joe Barker
+  :building: Dreese Lab 264
+CSE5911_5643:
+  :title: 'Capstone Design: Software Applications'
+  :subCat: CSE5911
+  :description: |-
+    Capstone design project: application of software engineering techniques, methodologies and technologies in software lifecycle activities using enterprise software frameworks; teamwork, written and oral communication.
+    Prereq: 3231 or 5231, and 2501 or Philos 1338, and CSE 3901 or 3902 or 3903, and second writing course; or Grad standing.
+  :course_number: '5643'
+  :section: '0010'
+  :instructor: 
+  :building: Dreese Lab 305
+CSE5023_6100:
+  :title: 'Software II: Software Development and Design'
+  :subCat: CSE5023
+  :description: "Data representation using hashing, search trees, and linked data
+    structures; algorithms for sorting; using trees for language processing; component
+    interface design; best practices in Java.\r\nPrereq: 2221 or 5022. Not open to
+    students with credit for 2231, 2231.01, 321, or 421."
+  :course_number: '6100'
+  :section: '0021'
+  :instructor: Paolo Bucci
+  :building: Dreese Lab 280
 CSE4193_8089:
   :title: Individual Studies in Computer Science and Engineering
   :subCat: CSE4193
@@ -6286,6 +6316,15 @@ CSE6999_8110:
   :section: '0925'
   :instructor: Huan Sun
   :building: 
+CSE6999_6783:
+  :title: MS Thesis Research in Computer Science and Engineering
+  :subCat: CSE6999
+  :description: "MS research in Computer Science and Engineering, leading to a thesis.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6783'
+  :section: '0930'
+  :instructor: Kenneth Jay Supowit
+  :building: 
 CSE6999_6786:
   :title: MS Thesis Research in Computer Science and Engineering
   :subCat: CSE6999
@@ -6303,6 +6342,15 @@ CSE6999_8423:
   :course_number: '8423'
   :section: '1025'
   :instructor: Ping Zhang
+  :building: 
+CSE6999_6791:
+  :title: MS Thesis Research in Computer Science and Engineering
+  :subCat: CSE6999
+  :description: "MS research in Computer Science and Engineering, leading to a thesis.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6791'
+  :section: '1030'
+  :instructor: Xiaodong Zhang
   :building: 
 CSE6999_6792:
   :title: MS Thesis Research in Computer Science and Engineering
@@ -6367,6 +6415,60 @@ CSE8998_6406:
   :section: '0490'
   :instructor: Xiaodong Zhang
   :building: 
+CSE8998_6619:
+  :title: PhD Research in Computer Science and Engineering
+  :subCat: CSE8998
+  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
+    a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6619'
+  :section: '0560'
+  :instructor: Umit V. Catalyurek
+  :building: 
+CSE8998_8114:
+  :title: PhD Research in Computer Science and Engineering
+  :subCat: CSE8998
+  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
+    a maximum of 10 completions. This course is graded S/U."
+  :course_number: '8114'
+  :section: '0565'
+  :instructor: Bryan Choi
+  :building: 
+CSE8998_6623:
+  :title: PhD Research in Computer Science and Engineering
+  :subCat: CSE8998
+  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
+    a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6623'
+  :section: '0600'
+  :instructor: Eric Fosler-Lussier
+  :building: 
+CSE8998_6639:
+  :title: PhD Research in Computer Science and Engineering
+  :subCat: CSE8998
+  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
+    a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6639'
+  :section: '0860'
+  :instructor: Paul Sivilotti
+  :building: 
+CSE8998_8118:
+  :title: PhD Research in Computer Science and Engineering
+  :subCat: CSE8998
+  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
+    a maximum of 10 completions. This course is graded S/U."
+  :course_number: '8118'
+  :section: '0975'
+  :instructor: Aylin Yener
+  :building: 
+CSE8998_6649:
+  :title: PhD Research in Computer Science and Engineering
+  :subCat: CSE8998
+  :description: "PhD research in Computer Science and Engineering.\r\nRepeatable to
+    a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6649'
+  :section: '0980'
+  :instructor: Dong Xuan
+  :building: 
 CSE8999_6797:
   :title: PhD Dissertation Research in Computer Science and Engineering
   :subCat: CSE8999
@@ -6411,6 +6513,114 @@ CSE8999_6819:
   :course_number: '6819'
   :section: '0390'
   :instructor: Christopher Charles Stewart
+  :building: 
+CSE8999_6832:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6832'
+  :section: '0540'
+  :instructor: Spyros Blanas
+  :building: 
+CSE8999_6833:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6833'
+  :section: '0550'
+  :instructor: Mike Bond
+  :building: 
+CSE8999_8293:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '8293'
+  :section: '0562'
+  :instructor: Jian Chen
+  :building: 
+CSE8999_6838:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6838'
+  :section: '0600'
+  :instructor: Eric Fosler-Lussier
+  :building: 
+CSE8999_6841:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6841'
+  :section: '0670'
+  :instructor: raghu Machiraju
+  :building: 
+CSE8999_6847:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6847'
+  :section: '0780'
+  :instructor: Rajiv Ramnath
+  :building: 
+CSE8999_6856:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6856'
+  :section: '0890'
+  :instructor: Christopher Charles Stewart
+  :building: 
+CSE8999_8123:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '8123'
+  :section: '0895'
+  :instructor: Huan Sun
+  :building: 
+CSE8999_6858:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6858'
+  :section: '0910'
+  :instructor: Radu Teodorescu
+  :building: 
+CSE8999_6862:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6862'
+  :section: '0950'
+  :instructor: Yu Su
+  :building: 
+CSE8999_6865:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6865'
+  :section: '0990'
+  :instructor: Xiaodong Zhang
+  :building: 
+CSE8999_6866:
+  :title: PhD Dissertation Research in Computer Science and Engineering
+  :subCat: CSE8999
+  :description: "PhD research in Computer Science and Engineering, leading to a dissertation.\r\nRepeatable
+    to a maximum of 10 completions. This course is graded S/U."
+  :course_number: '6866'
+  :section: '1000'
+  :instructor: 
   :building: 
 CSE2421_23293:
   :title: 'Systems I: Introduction to Low-Level Programming and Computer Organization'
