@@ -82,7 +82,7 @@ totalPages = @scraper.store_all_courses_page()
 for i in 1..totalPages
     @scraper.get_course_info(i)
 end
-File.open "../course.yml", "w" do |file|
+File.open "data/course.yml", "w" do |file|
 file << @scraper.courseCatalog.to_yaml
 end
 
