@@ -55,14 +55,12 @@ class Scraper
             # print "#{item}"
             newTitle = item["course"]["title"]
             newSubCat = item["course"]["subject"] + item["course"]["catalogNumber"]
-            newDesc = item["course"]["description"]
             newMaxCH = item["course"]["maxUnits"]
             newMinCH = item["course"]["minUnits"]
             item["sections"].each do |section|
                 @courseCatalog["#{newSubCat}_#{section["classNumber"]}"] = {
                     "title": newTitle, 
                     "subCat": newSubCat,
-                    "description": newDesc,
                     "course_number": section["classNumber"],
                     "section": section["section"],
                     "instructor": section["meetings"][0]["instructors"][0]["displayName"],
